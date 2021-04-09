@@ -11,7 +11,7 @@ This is a simple **PI-Controller** library for microcontrollers written in C.
 where **integrator** is defined as
 
 ```sh
-pi->integrator += pi->Ki * pi->dt * (error + pi->previous_error);
+pi->integrator += pi->Ki * pi->dt * (error + pi->previous_error)
 ```
 
 ## Description
